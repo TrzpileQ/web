@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>AXIT</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+  function activeLinks(e) {
+    if (document.querySelector('a.active') !== null) {
+      document.querySelector('a.active').classList.remove('active');
+    }
+    e.target.className = "active";
+  }
+  function mobileMenu() {
+    var element = document.getElementById("menuLinks");
+       element.classList.toggle("mobile-menu");
+  }
+  </script>
+
+  <div class="custom-nav">
+    <a class="navbar-brand mr-auto" href="#"><img src="img/Logo.png" alt=""></a>
+    <div id="menuLinks">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#awasome-section">Why us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricing-section">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#review-section">Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contect</a>
+      </li>
+    </div>
+    <a href="javascript:void(0);" class="hamburger" onclick="mobileMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+    <div class="main-section">
+      <div class="logo container">
+        <div class="row">
+
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="main-text">
+            <img src="img/logo-b.png" alt="">
+            <h1>
+              MODERN AXURE TEMPLATE<br>
+              FOR BEAUTIFUL PROTOTYPES
+            </h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+              euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+              accumsan et viverra justo commodo.
+            </p>
+            <a class="download-button" href="#">Download</a>
+          </div>
+        </div>
+          <div class="col-lg-6 col-sm-6 col-md-6">
+            <div class="main-form">
+              <form class="" action="index.html" method="post">
+                <h2>Try Your <span>FREE</span> Trial Today</h2>
+                <div class="form-input">
+                  <input type="text" name="" placeholder="Name">
+                  <input type="text" name="" placeholder="Email">
+                  <input type="text" name="" placeholder="Password">
+                </div>
+                <a href="#">Get Started</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="awasome-section" id="awasome-section">
+        <h2>WHY THIS IS AWESOME</h2>
+        <div class="divider"></div>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <i class="fa fa-lightbulb-o"></i>
+            <h3>Thoughtful Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <i class="fa fa-keyboard-o"></i>
+            <h3>Well Crafted</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <i class="fa fa-bolt"></i>
+            <h3>Easy to Customize</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-section" id="pricing-section" >
+      <div class="container">
+        <div>
+          <h1>PRICING OPTIONS</h1>
+          <div class="divider"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="option">
+              <h2>Basic</h2>
+              <h3><span>$</span>0</h3>
+              <h4>Free for life</h4>
+              <p>1 GB of space</p>
+              <p>10 GB of bandwidth</p>
+              <p>3 websites</p>
+              <p>Basic customization</p>
+              <p>Wordpress integration</p>
+              <p>Email support</p>
+            </div>caption
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="option top-m">
+              <h2>Professional</h2>
+              <h3><span>$</span>19</h3>
+              <h4>Free for life</h4>
+              <h5>Our most popular</h5>
+              <p>5 GB of space</p>
+              <p>50 GB of bandwidth</p>
+              <p>12 websites</p>
+              <p>Advanced customization</p>
+              <p>Wordpress integration</p>
+              <p>Email support</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="option">
+              <h2>Enterprise</h2>
+              <h3><span>$</span>70</h3>
+              <h4>Free for life</h4>
+              <p>Unlimited GB of space</p>
+              <p>Unlimited GB of bandwidth</p>
+              <p>100 websites</p>
+              <p>Advanced customization</p>
+              <p>Wordpress integration</p>
+              <p>24/7 customer support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="review-section" id="review-section">
+      <div class="container">
+        <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <div class="divider"></div>
+        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="review">
+              <p class="box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+              </p>
+              <div class="client-img">
+                <img src="img/client.png" alt="">
+              </div>
+              <div class="client-name">
+                <h3>Jeremy H.</h3>
+                <span>Manager</span>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="review">
+              <p class="box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+              </p>
+              <div class="client-img">
+                <img src="img/client.png" alt="">
+              </div>
+              <div class="client-name">
+                <h3>Jeremy H.</h3>
+                <span>Manager</span>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="review">
+              <p class="box">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.
+              </p>
+              <div class="client-img">
+                <img src="img/client.png" alt="">
+              </div>
+              <div class="client-name">
+                <h3>Jeremy H.</h3>
+                <span>Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<script src="https://kit.fontawesome.com/59e97f68d8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
